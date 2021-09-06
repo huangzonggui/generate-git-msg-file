@@ -1,0 +1,24 @@
+{
+  "name": "generate-git-msg-file",
+  "version": "1.0.0",
+  "description": "generate git message json file , such as when building",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node git.version.ts"
+  },
+  "keywords": [
+    "git",
+    "version"
+  ],
+  "author": "aki.huang",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.24",
+    "eslint-config-airbnb": "^17.1.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  }
+}
